@@ -1,0 +1,76 @@
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 250px auto;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .icon, .searchSection {
+    margin-right: 15px;
+  }
+  
+  .deficitIcon {
+    color: #FFD700; /* Yellow color for the deficit icon */
+  }
+  
+  .loanButton {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .loanButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .optionButton {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .optionButton:hover {
+    background-color: #218838;
+  }
+  
+  .optionIcon {
+    margin-right: 10px;
+  }
+  
+  .searchSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .searchIcon {
+    color: #FFD700; /* Yellow color for the search icon */
+  }
+  
+  .searchText {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 10px;
+  }
+  
